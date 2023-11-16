@@ -1,0 +1,190 @@
+@font-face {
+  src: url(../fonts/Geometria-Heavy.ttf);
+  font-family: "Geometria", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 0 auto;
+    width: 1390px;
+    height: 1200px;
+    display: flex; 
+}
+.first{
+    width: 1393px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    position: absolute;
+    margin-bottom: 300px;
+    color: #2E2E2E;
+    text-align: center;
+    font-family: "Geometria", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 92.8%; 
+    text-transform: uppercase;
+}
+.info{
+    height: 200px;
+ margin-left: 24px;
+ margin-right: 24px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 32px 56px;
+    background-color: #FF6060;
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 9px;
+}
+.num{
+    color: #FF6060;
+    text-align: center;
+    font-family: "Geometria", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 110%; 
+    text-transform: uppercase;
+    text-shadow: none;
+}
+.description{
+    color: #2E2E2E;
+    font-family: "Geometria", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 110%; 
+    max-width: 196px;
+    text-align: center;
+}
+.picture2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 56px;
+    background-color: #FFDC60;;
+    border-radius: 0px 0px 300px 300px;
+    margin-top: 9px;
+}
+.info2{
+    height: 200px;
+ margin-left: 24px;
+ margin-right: 24px;
+ margin-top: 68px;
+}
+.first{
+    width: 2000px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+                                                       /* Second */
+.second{
+    width: 1307px;
+    gap: 24px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 1390px;
+    margin-right: 9px;
+}
+.card{
+    width: 306px;
+    height: 148px;
+    background-image: url("../images2/business.webp");
+    background-size: 306px 148px;
+    border-radius: 0px 300px 300px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+.circle{
+    background-color: #FFDC60;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: #FFDC60;
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34);
+font-family: "Geometria", sans-serif;
+font-size: 20px;
+font-weight: 900;
+line-height: 110%; 
+text-shadow: none;
+text-transform: uppercase;
+width: 153px;
+margin-right: 20px;
+}
+.circle2{
+    background-color: #FF6060;;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2{
+    width: 306px;
+    height: 148px;
+    background-image: url("../images2/business.webp");
+    background-size: 306px 148px;
+    border-radius: 300px 300px 300px 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+.card3{
+    width: 306px;
+    height: 148px;
+    background-image: url("../images2/business.webp");
+    background-size: 306px 148px;
+    border-radius: 300px 0px 0px 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+}
+.header2{
+    position: absolute;
+    margin-bottom: 500px;
+    margin-left: -8px;
+    color: #2E2E2E;
+text-align: center;
+font-family: "Geometria", sans-serif;
+font-size: 40px;
+font-weight: 900;
+line-height: 92.8%; 
+text-transform: uppercase;
+}
+.num2{
+    color: #FFDC60;
+text-align: center;
+font-family: "Geometria", sans-serif;
+font-size: 40px;
+text-shadow: none;
+font-weight: 900;
+line-height: 110%; 
+text-transform: uppercase;
+}
